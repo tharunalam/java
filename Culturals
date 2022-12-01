@@ -1,0 +1,17 @@
+//CULTURALS TRAINING
+import java.util.Scanner;
+public class Culturals
+{
+    public static void main(String[]args)
+    {
+        Scanner input=new Scanner(System.in);
+        int q=input.nextInt();
+        int w=input.nextInt();
+        int r,g,t;
+        r=q/w;
+        t=w*7;
+        g=q%w;
+        System.out.println(r);
+        System.out.print(g);
+        }
+}
