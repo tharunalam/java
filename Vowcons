@@ -1,0 +1,22 @@
+   /./#VOWEL OR CONSONENTS
+   import java.util.Scanner;
+public class Vowcons
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        char v=sc.next().charAt(0);
+        if(v=='a'||v=='e'||v=='i'||v=='o'||v=='u')
+        {
+            System.out.println("vowel");
+        }
+    else if((v>=65&&v<=90)||(v>=97&&v<=122))
+    {
+        System.out.println("consonant");
+    }
+    else
+    {
+        System.out.println("not an alphabet");
+    }
+}
+}
