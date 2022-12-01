@@ -1,0 +1,19 @@
+//FENCING THE GROUND
+
+import java.util.Scanner;
+public class Fence
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+       int a=sc.nextInt();
+       int b=sc.nextInt();
+       int s,t;
+       s=(a+b)*2;
+       t=a*b;
+       System.out.printf("Required length is %d m",s);
+      // System.out.printf("");
+       
+       System.out.printf("\nRequired quantity of carpet is %d sqm",t);
+    }
+}
