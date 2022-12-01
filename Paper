@@ -1,0 +1,13 @@
+//PAPER BAGS AGENCYimport java.util.Scanner;
+public class Paper
+{
+    public static void main(String[]args)
+    {
+        Scanner input=new Scanner(System.in);
+        int w=input.nextInt();
+        int x=input.nextInt();
+        int y=input.nextInt();
+        int k=((w*x)-(w*y))-100;
+        System.out.println(k);
+    }
+}
