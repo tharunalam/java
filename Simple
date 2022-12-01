@@ -1,0 +1,19 @@
+//SIMPLE INTEREST
+
+import java.util.Scanner;
+public class Simple
+{
+    public static void main(String args[])
+    {
+       Scanner sc=new Scanner(System.in);
+       int a=sc.nextInt();
+       int b=sc.nextInt();
+       float z=sc.nextFloat();
+        float r;
+        float c;
+        float w;
+        c=a*b*z;
+        w=c/100;
+      System.out.printf("%.2f",w);   
+    }
+}
