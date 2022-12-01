@@ -1,0 +1,16 @@
+//FOOT BALL  STADIUM
+import java.util.Scanner;
+public class Football
+{
+    public static void main(String[] args)
+    {
+        Scanner input=new Scanner(System.in);
+        int a =input.nextInt();
+        int b=input.nextInt();
+        int w,t;
+        w=(a+b)*2;
+        t=a*b;
+        System.out.println(w);
+        System.out.println(t);
+    }
+}
