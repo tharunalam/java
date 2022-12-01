@@ -1,0 +1,20 @@
+.//NEW MEMBER IN TEAM FLASH\
+
+import java.util.Scanner;
+public class Flash
+{
+    public static void main(String[]args)
+    {
+        Scanner input=new Scanner(System.in);
+            int x1=input.nextInt();
+            int y1=input.nextInt();
+            int x2=input.nextInt();  
+            int y2 =input.nextInt(); 
+            int x3=input.nextInt(); 
+            int y3=input.nextInt();
+          float u=(x1+x2+x3);
+          float v=(y1+y2+y3);
+          System.out.printf("%.1f\n",u/3);
+          System.out.printf( "%.1f",v/3);
+    }
+}
