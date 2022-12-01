@@ -1,0 +1,17 @@
+//POWER OF A NUMBER
+import java.util.Scanner;
+public class Pow
+{
+    public static void main(String args[])
+    {
+        double x,n;
+        int pow;
+     Scanner sc=new Scanner(System.in);
+    System.out.println("enter te base");
+    x=sc.nextInt();
+    System.out.println("enter the power");
+    n=sc.nextInt();
+    pow=(int)Math.pow(x,n);
+    System.out.println("the power of the no "+pow);
+    }
+}
