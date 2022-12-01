@@ -1,0 +1,18 @@
+//DISCOUNT
+import java.util.Scanner;
+public class Discount
+{
+    public static void main(String[]args)
+    {
+        Scanner input=new Scanner(System.in);
+        float item1=input.nextFloat();
+         float item2=input.nextFloat();
+         float disc=input.nextFloat();
+        float r=item1+item2;
+        float t=((r/100)*disc);
+      float y=r-t;
+      System.out.printf("%.2f\n",r);
+      System.out.printf("%.2f\n",y);
+      System.out.printf("%.2f\n",t);
+    }
+}
