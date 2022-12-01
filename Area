@@ -1,0 +1,23 @@
+//AREA CALCULATION
+
+import java.util.Scanner;
+public class Area
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        float d=sc.nextFloat();
+        int m,n;
+        double j;
+        m=a*a;
+        n=b*c;
+        j=3.14*d*d;
+          
+        System.out.println(m);
+        System.out.println(n);
+        System.out.printf("%.2f",j);
+    }
+}
